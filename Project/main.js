@@ -46,7 +46,7 @@ function addli(e) {
 // function to delete any element
 function deletefunction(e) {
     e.preventDefault();
-    alert('Are you Sure you want to delete ' + userinput.value + ' ?');
+    alert('Are you Sure you want to delete ?');
     let closestli = e.target.closest('li');
     let inputcheck = e.target.parentElement.previousSibling;
     console.log(inputcheck);
