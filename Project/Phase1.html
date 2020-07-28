@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Phase 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "main.js" defer></script>
+    <script src = "geolocation.js" defer></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqjXgs5SO5GAhBygB-AzjS5eJWsu0lxqc&callback=initMap"
+	></script>
+    <script src = "thirdpartyapi.js" defer></script>
+    <body>
+    </head>
+    <h1>  To Do List</h1>
+    <div class="inputform">
+    <input id="inputbutton" type="text" maxlength="100" placeholder="What to do?" >
+    <button class = "submit" id = "submitbtn" >ADD</button>
+    </div>
+    <div>
+   <form class="inputform" id = "inputform">
+     <ul>
+     </ul>
+     <section class="row"> 
+      <h2> Get Your Current Location </h2>
+      <button id="mylocation"> My Exact Location </button>
+      <p id="location"></p>
+      <a id ="map-link" target="_blank"></a>
+      <div id="map"></div>
+    </section>
+     </form>
+     </div>
+  </body>
+</html>      
