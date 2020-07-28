@@ -15,7 +15,7 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(showPosition, errorMsg);
     }
 }
-// fumction to show the position
+// function to show the position
 function showPosition(position) {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
